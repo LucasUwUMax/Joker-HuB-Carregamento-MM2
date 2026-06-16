@@ -93,7 +93,7 @@ percent.Text = "0%"
 percent.Parent = barContainer
 
 -- Carregamento lento (33 segundos)
-local duration = 33
+local duration = 20
 TweenService:Create(bar, TweenInfo.new(duration, Enum.EasingStyle.Linear), {Size = UDim2.new(1,0,1,0)}):Play()
 
 task.spawn(function()
